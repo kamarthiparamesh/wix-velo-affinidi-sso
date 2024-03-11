@@ -1,0 +1,4 @@
+{
+    "redirectUri": "/_functions/@parameshk9/affinidi-sso-integration-backend/getAuthCallback",
+    "loggedInPage": "/affinidi-loggedin"
+}
