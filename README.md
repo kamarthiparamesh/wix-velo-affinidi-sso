@@ -3,7 +3,7 @@
 Simplify the integration of `Affinidi Login` into your Wix Sites.
 
 ## OAuth Flow
-![OAuth Flow](../assets/oauth-flow.png)
+![OAuth Flow](./assets/oauth-flow.png)
 
 
 ## Installation Options

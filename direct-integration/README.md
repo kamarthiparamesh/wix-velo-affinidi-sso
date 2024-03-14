@@ -130,3 +130,5 @@ $w.onReady(function () {
 8. Save the changes and publish it, Open site URL and click on `Affinidi Login` button under Signup/Login Page
 ![login](./images/login.png)
 ![signup](./images/signup.png)
+![consent-screen.](./images/consent-screen.png)
+![login-success](./images/login-success.png)

@@ -2,9 +2,6 @@
 
 This is Custom App, which helps for Affinidi Login Integration with sites built on WIX platform 
 
-## OAuth Flow
-![OAuth Flow](../assets/oauth-flow.png)
-
 ## Setup
 
 ### How to Use the Package in your Site
