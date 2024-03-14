@@ -82,6 +82,7 @@ import { getAuthUrl } from 'public/affinidi/client.js';
 import wixLocationFrontend from 'wix-location-frontend';
 
 export async function affinidiLogin_click(event) {
+    $w('#affinidiLogin').disable();
 	console.log('Affinidi Login button clicked');
     try {
         const url = await getAuthUrl();
@@ -90,6 +91,7 @@ export async function affinidiLogin_click(event) {
     } catch (error) {
         console.error(error);
     }
+	$w('#affinidiLogin').enable();
 }
 ```
 ![custom-signup2](./images/custom-signup2.png)
@@ -132,3 +134,19 @@ $w.onReady(function () {
 ![signup](./images/signup.png)
 ![consent-screen.](./images/consent-screen.png)
 ![login-success](./images/login-success.png)
+
+
+
+
+# More Information
+
+1. We can place the login button on any page like Homepage etc., In case if you want to hide the Icon post login then below code will help
+```
+import wixUsers from 'wix-users';
+
+$w.onReady(function () {
+	if(wixUsers.currentUser.loggedIn) {
+		$w('#affinidiLoginMain').hide();
+	}
+});
+```
