@@ -1,6 +1,9 @@
 # WIX - Affinidi Login Integration
 
 Simplify the integration of `Affinidi Login` into your Wix Sites.
+This uses [openid-connect](https://www.npmjs.com/package/openid-client) npm package with Auth Code Flow.
+
+**TODO**: PKCE Flow which reduces the risk of client secret management
 
 ## Prerequisites
 
