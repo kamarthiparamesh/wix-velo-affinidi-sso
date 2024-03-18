@@ -29,10 +29,9 @@ const getClient = async (baseUrl) => {
         const affinidi = await Issuer.discover(options.issuer);
         const client = new affinidi.Client({
             client_id: options.client_id,
-            client_secret: options.client_secret,
             redirect_uris: [options.redirect_uri],
             response_types: ['code'],
-            token_endpoint_auth_method: 'client_secret_post',
+            token_endpoint_auth_method: 'none',
         })
         return client;
 
